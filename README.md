@@ -1,26 +1,50 @@
-# OIM 3641 Fall 2026 Class Repository
+# OIM3641_F26 — OIM 3641 Classwork
 
-All class demonstration files and problem set solutions will be found here.
+## About Me
+I'm Mauricio (Mauri) Hasbun, a Finance and Entrepreneurship student at Babson College (Class of 2029). This repo holds my coursework, notebooks, and projects for OIM 3641, where I'm building skills in Python, data analysis, and applied AI/data tools to support my interest in finance and investment banking.
 
+## Skills & Tools
 
-### To get started install git on your computer to access files:
-1. Visit [https://git-scm.com](https://git-scm.com)
-2. Download and install the version for your operating system
-3. Windows: Be sure to install "Use Git from Windows Command Prompt"
-4. Leave defaults selected for remaining install options
-### To access files you can open them in the browser by clicking on the file desired, but it is best to copy them to your own computer:
-1. Locate the green code button and click it
-2. Copy the URL and open git bash (terminal for MAC OS)
-3. Type git clone and then paste the URL and hit enter
-4. Alternatively you can directly enter:
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-    `git clone https://github.com/mjmacarty/OIM3641_F26.git` 
+## Directory Structure
+```
+├── data/                 # Datasets and reference materials (Amazon reviews, PDFs)
+├── 01-llm-call.py        # Class demo script
+├── 02-python_concepts.ipynb   # In-class activity notebook
+├── 03-demo_*.py          # Class demo scripts (LlamaIndex, retrieval)
+├── HW2-Python_concepts.ipynb  # Homework submission
+├── loan_pmt.py           # Homework script
+├── example.txt           # Class file
+└── README.md             # This file
+```
 
-*This method creates a folder with the contents of the github repo in your computer's home directory. If you prefer that it be located elsewhere, you can change the location with the cd command, e.g. cd Documents will put the repository in your Documents folder.* 
-### To update the folder on your computer:
-1. Launch git bash (terminal in MAC OS)
-2. Navigate to the repository on your computer
-3. Enter
+## Install Instructions
+1. Clone the repo:
+```bash
+   git clone https://github.com/[your-username]/[your-repo-name].git
+```
+2. Navigate into the project folder:
+```bash
+   cd OIM3641_F26
+```
+3. (Optional) Create and activate a virtual environment:
+```bash
+   python -m venv .venv
+   source .venv/bin/activate   # Mac/Linux
+   .venv\Scripts\activate      # Windows
+```
+4. Install dependencies:
+```bash
+   pip install -r requirements.txt
+```
+5. Open notebooks in Jupyter or PyCharm and run scripts as needed.
 
-    `git pull https://github.com/mjmacarty/OIM3641_F26.git`
-
+## Contact / Connect
+- LinkedIn: https://www.linkedin.com/in/mauriciohasbun/
+- GitHub: github.com/mjhasbuns 
